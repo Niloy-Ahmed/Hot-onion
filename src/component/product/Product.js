@@ -7,7 +7,6 @@ const Product = (props) => {
     // console.log(props.product.images);
     const {title, description, images,price,details} = props.product;
     return (
- 
           <div  className=" product" >
            <div className="card"  style={{width: "18rem"}}>
               <img className="card-img-top cart-img" src={images} ></img>
@@ -19,7 +18,6 @@ const Product = (props) => {
           </div>
          </div>
         </div>
-
       
     );
 };

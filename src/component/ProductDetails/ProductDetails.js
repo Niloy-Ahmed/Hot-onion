@@ -3,14 +3,14 @@ import { useParams } from 'react-router-dom';
 import fakeData from '../../fakeData/Breackfast';
 import Product from '../product/Product';
 
-const ProductDetails = () => {
+const ProductDetails = (props) => {
     const {ProductKey} = useParams();
-    const product  = fakeData.find(pd => pd.details === ProductKey);
+    const product  = fakeData.find(pd => pd.details == ProductKey);
     console.log(product)
     return (
         <div>
-            <h1>product details</h1>
-            <Product showAddToCart={false} product = {Product}></Product>
+            <h6>product details</h6>
+            <Product showAddToCart={false} product = {product}></Product>
         </div>
     );
 };

@@ -7,6 +7,12 @@ img{
     background-color: red;
     float: right;
 }
-/* .banner-area{
+.banner-area{
     background-image: url('../logo/bannerbackground.png');
-} */
+    width: 100%;
+    height: 450px;
+    margin: 15px;
+    background-position: center center;
+    background-size: cover;
+    
+}
