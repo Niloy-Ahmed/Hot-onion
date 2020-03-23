@@ -1,0 +1,11 @@
+.product{
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    margin: 15px;
+}
+.cart-img{
+    width: 70px;
+    height: 160px;
+    padding: 5px;
+}
